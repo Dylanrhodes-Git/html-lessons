@@ -1,0 +1,40 @@
+<!DOCType html>
+<html>
+    <head>
+        <title>6th lesson - comments and ratings</title>
+    </head>
+    <body>
+        <h1>My form for lesson 6</h1>
+
+        <hr>
+
+        <form action="https://httpbin.org/post" method="post">
+
+        <h3><em>Personal Details</em></h3>
+        <label for="username">Your Full Name</label><br>
+        <input type="text" id="username" name="users full name"><br>
+
+        <label for="email">Your Email</label><br>
+        <input type="email" id="email" name="users email"><br>
+
+        <hr>
+
+        <h3><em>What did you think of the 6th lesson expereince?</em></h3>
+        <label for="comments">Leave your feedback here</label><br>
+        <textarea id="comments" name="users comment" rows="2" cols="40"></textarea><br>
+
+        <label for="rating">rate your expereince</label>
+        <select id="rating" name="users rating">
+            <option value="amazing">Tier A (Top)</option>
+            <option value="good">Tier B</option>"
+            <option value="okay">Tier C</option>
+            <option value="bad">Tier D (Bottom)</option>
+        </select><br>
+
+        <hr>
+
+        <button type="submit">Submit your feedback :)</button>
+        </form>
+    
+    </body>
+</html>
