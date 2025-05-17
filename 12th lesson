@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>12th lesson</title>
+    </head>
+    <body>
+        <h1>Learning how to merge rows and colomns and use table titles in tables in html :)</h1>
+
+<hr>
+
+<table border="2">
+    <caption>FAVOURITE FOODS</caption>
+
+    <thead>
+        <tr>
+            <th>sweet</th>
+            <th>savoury</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td colspan="2">favourites</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Pastries</td>
+            <td rowspan="2">hi</td>
+        </tr>
+
+        <tr></tr>
+
+        <tr>
+            <td colspan="2">second favoruties</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Chocalte cake</td>
+            <td rowspan="2">Eggy Bread</td>
+        </tr>
+
+        <tr></tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2">Thankyou</td>
+        </tr>
+    </tfoot>
+</table>
+</body>
+</html>
